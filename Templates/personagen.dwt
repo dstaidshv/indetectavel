@@ -95,7 +95,7 @@
                      <!--Logo-->
                      <div id="logo">
                         <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img src="images/logo.png" id="navigation-logo" alt="logo"/>
+                        <a id="navigation-logo" href="index.html"><img src="images/logo.png"  alt="logo"/></a>
                         <!--End of Navigation Logo-->
                      </div>
                      <!--End of Logo-->
@@ -104,7 +104,7 @@
                         <div class="sharethis-inline-share-buttons"></div>
                         <!--End of Social Icons in Header-->
 					 <!--close window-->
-			            <div class="fecha_janela"><a href="javascript:close_window();">Fecha janela (x)</a></div>
+			            <div class="fecha_janela"><a href="javascript:close_window();">Voltar</a></div>
                   </div>
                </div>
             </div>
