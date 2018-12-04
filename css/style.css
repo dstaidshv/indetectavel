@@ -764,7 +764,9 @@ h6 {
 
 .text-left {
     text-align: left;
+    font-family: Helvetica, sans-serif, Arial;
 }
+
 
 .text-center {
     text-align: center;
@@ -949,6 +951,10 @@ h6 {
 }
 
 /* --------- 6.3 Testimonials Personagens ---------- */
+
+aside#personagens {
+    background-color: #E8E8E8;
+}
 
 .testimonial {
     padding: 15px;
@@ -1457,11 +1463,14 @@ a.gallery.col-4 {
 /* --------- 6.6 Clients  #clients conceitos---------- */
 #conceitos {
    
-	/*background: url(http://www.aids.gov.br/indetectavel/images/banner-images/banner-image-3.jpg) no-repeat;*/
+	background: url(../images/laco_m.png) no-repeat;
+	background-repeat: no-repeat;
+    background-size: auto;
 	/*background: url("../images/color_smoke3.jpg") no-repeat;
     background-position: right -500px top;
     background-attachment: fixed;
-	background-clip: border-box|padding-box|content-box|initial|inherit;*/
+	background-size: contain;
+	/*background-clip: border-box|padding-box|content-box|initial|inherit; */
     color: #e41c4d;
 }
 

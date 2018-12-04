@@ -40,7 +40,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
-   /*  background: #e41c4d; */
+     background-color: #E8E8E8;
 }
 
 .pricing-block-content:hover {
@@ -141,6 +141,7 @@ div#st-1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+	background-color: #E8E8E8;
 }
 
 #banner_video {
