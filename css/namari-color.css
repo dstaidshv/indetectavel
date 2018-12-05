@@ -60,7 +60,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 
-/* Navigation Colors when the Navigation is sticky and solid */ 
+/* Navigation Colors when the Navigation is sticky and solid */
 
 #header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
     color:#333;
@@ -77,7 +77,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 div#st-1 {
     position: relative;
-    top: 15px;
+    top: 8px;
 }
 
 
@@ -94,7 +94,7 @@ div#st-1 {
 }
 
 .primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
-    color:#fff;    
+    color:#fff;
 }
 
 .section-heading h2:after {
@@ -134,9 +134,9 @@ div#st-1 {
 #banner {
    /* background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
     background: url("../images/banner-images/cruz.png") no-repeat center top;*/
-    background: url("../images/banner-images/banner_md.jpg"); 
+    background: url("../images/banner-images/banner_md.jpg");
     /* Full height */
-    height: 100%; 
+    height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -146,39 +146,39 @@ div#st-1 {
 
 #banner_video {
 background: url("../images/banner-images/video-bg.jpg");
-	background-size: contain;                
+	background-size: contain;
     background-repeat:   no-repeat;
-    background-position: center center;   
+    background-position: center center;
 }
 
 #banner_video2 {
 background: url("../images/banner-images/animation.gif");
-	background-size: contain;                
+	background-size: contain;
     background-repeat:   no-repeat;
-    background-position: center center;   
+    background-position: center center;
 }
 
 #banner_video3 {
 background: url("../images/tab_indetectavel_capa_video3.mp4");
-	background-size: contain;                
+	background-size: contain;
     background-repeat:   no-repeat;
-    background-position: center center;   
+    background-position: center center;
 }
 
 #banner_ariadne_ferreira {
    /*  background: url("../images/banner-images/banner_ariadne_ferreira.png");*/
-	background: url("../images/banner-images/cruz.png") no-repeat center top; 
-	background-size: contain;                
+	background: url("../images/banner-images/cruz.png") no-repeat center top;
+	background-size: contain;
     background-repeat:   no-repeat;
-    background-position: right;   
+    background-position: right;
 }
 
 #banner_leonardo_cezimbra {
    /*  background: url("../images/banner-images/banner_ariadne_ferreira.png");*/
-	background: url("../images/banner-images/cruz.png") no-repeat center top; 
-	background-size: contain;                
+	background: url("../images/banner-images/cruz.png") no-repeat center top;
+	background-size: contain;
     background-repeat:   no-repeat;
-    background-position: right;   
+    background-position: right;
 }
 
 
@@ -210,14 +210,14 @@ body {
 
 #logo h1 {
     font-family:;
-    font-size:; 
+    font-size:;
     font-weight:;
     color:;
 }
 
 #logo h2 {
     font-family:;
-    font-size:; 
+    font-size:;
     font-weight:;
     color:;
 }
@@ -252,7 +252,7 @@ body {
 .section-title {
    /* font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
 	font-family: 'Bungee', sans-serif, Arial, Helvetica;
-    font-size: 34px; 
+    font-size: 34px;
     font-weight:700;
     color:#111;
 }
@@ -272,7 +272,7 @@ body {
 
 .testimonial q {
     font-family: 'Bungee', sans-serif, Arial, Helvetica;
-    font-size: 15px; 
+    font-size: 15px;
     font-weight:300;
 	line-height: 1.5em;
 	text-align: center;
@@ -288,7 +288,7 @@ body {
 
 h1 {
     font-family: 'Bungee', sans-serif, Arial, Helvetica;
-    font-size: 40px; 
+    font-size: 40px;
     font-weight:300;
     color:#111;
 }
@@ -305,35 +305,35 @@ h2 {
 
 h3 {
     font-family: 'Bungee', sans-serif, Arial, Helvetica;
-    font-size: 30px; 
+    font-size: 30px;
     font-weight:700;
     color:#111;
 }
 
 h4 {
     font-family: 'Bungee', sans-serif, Arial, Helvetica;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight:400;
     color:#111;
 }
 
 h4.section-title {
     font-family: 'Bungee', sans-serif, Arial, Helvetica;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight:400;
     color:#111;
 }
 
 h5 {
     font-family: 'Bungee', sans-serif, Arial, Helvetica;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight:400;
     color:#111;
 }
 
 h6 {
     font-family: 'Bungee', sans-serif, Arial, Helvetica;
-    font-size: 14px; 
+    font-size: 14px;
     font-weight:400;
     color:#111;
 }
