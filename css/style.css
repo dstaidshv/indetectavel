@@ -311,9 +311,9 @@ section {
 
 .fecha_janela {
     float: right;
-    padding-right: 9%;
+  /*  padding-right: 9%;
 	width: 350px;
-	height: 40px;
+	height: 40px; */
 }
 
 #header {
@@ -1323,7 +1323,7 @@ a.gallery.col-4 {
     .featherlight-previous span {
         display: block;
     }
-	
+
 }
 
 /* handling phones and small screens */
@@ -1462,7 +1462,7 @@ a.gallery.col-4 {
 
 /* --------- 6.6 Clients  #clients conceitos---------- */
 #conceitos {
-   
+
 	background: url(../images/laco_m.png) no-repeat;
 	background-repeat: no-repeat;
     background-size: auto;
@@ -1559,7 +1559,7 @@ span.conceito {
 
 /*-----CAMPANHAS-----*/
 #campanhas {
-   
+
 	/*background: url(http://www.aids.gov.br/indetectavel/images/banner-images/banner-image-3.jpg) no-repeat;*/
 	/*background: url("../images/color_smoke3.jpg") no-repeat;
     background-position: right -500px top;
@@ -2476,7 +2476,7 @@ span.campanhas {
         padding-left: 20px;
         padding-right: 20px;
     }
-	
+
 
     /*-----------------Sections-----------------*/
 
@@ -2559,9 +2559,9 @@ span.campanhas {
     /*-----------------Square brackets-----------------*/
 
 
-.squarebrackets 
+.squarebrackets
 {
- 
+
   font-size:28px;
 	color:#e41c4d;
 }
@@ -2577,8 +2577,8 @@ before {
    margin-right:10px;
   padding:10px 5px 10px 5px;
   border-radius: 2x;
-	
-	
+
+
 }*/
 .squarebrackets:after{content:"]";
 color: blue;
@@ -2592,4 +2592,3 @@ color: blue;
   margin-left:10px;
  boder-radius: 2px;
 }*/
-
