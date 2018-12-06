@@ -533,12 +533,12 @@ section {
 }
 
 #header.nav-solid nav a {
-    border-bottom: 3px solid;
+/*    border-bottom: 3px solid;
     border-color: #fff;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; */
 }
 
 #header.nav-solid nav a:hover {
