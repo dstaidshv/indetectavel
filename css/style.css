@@ -1310,6 +1310,160 @@ a.gallery.col-4 {
     .featherlight-loading .featherlight-previous, .featherlight-loading .featherlight-next {
         display: none;
     }
+	
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner phone*/
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Banner Background and Text Colors */
+
+#banner {
+   /* background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background: url("../images/banner-images/cruz.png") no-repeat center top;*/
+     background: url("../images/banner-images/banner_md.jpg"); 
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-color: #E8E8E8;
+}
+
+#banner_video {
+background: url("../images/banner-images/video-bg.jpg");
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#banner_video2 {
+background: url("../images/banner-images/animation.gif");
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#banner_video3 {
+background: url("../images/tab_indetectavel_capa_video3.mp4");
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#banner_ariadne_ferreira {
+	background: url("../images/banner-images/ariadne_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_leonardo_cezimbra {
+	background: url("../images/banner-images/leonardo_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_americo_nunes {
+	background: url("../images/banner-images/americo_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_rafaela_queiroz {
+	background: url("../images/banner-images/rafuska_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_beatriz_pacheco {
+	background: url("../images/banner-images/beatriz_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_marcio_ricardo {
+	background: url("../images/banner-images/marcio_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_aparecida_lemos {
+	background: url("../images/banner-images/cida_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_geovanni_henrique_jeandro_borba {
+	background: url("../images/banner-images/geovanni_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_jacqueline_cortes {
+	background: url("../images/banner-images/jacque_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_lucas_martins {
+	background: url("../images/banner-images/lucas_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_rafael_sanches_lopes {
+	background: url("../images/banner-images/bolacha_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+}
+
+#banner_wladimir_reis {
+	background: url("../images/banner-images/wladimir_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_wanessa_campos {
+	background: url("../images/banner-images/vanessa_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner-1 {
+    background: url("../images/banner-images/banner-image-2.jpg") no-repeat center top;
+    background-size:cover;
+}
+
+#banner_01_ariadne_ferreira {
+    background: url("../images/user-images/01_ariadne_ferreira.jpg") no-repeat center top;
+    background-size: 512px 512px;
+}	
 }
 
 /* Always display arrows on touch devices */
@@ -1351,6 +1505,137 @@ a.gallery.col-4 {
     text-align: center;
 	margin-bottom: 30px;
 	margin-top: 35px;
+}
+	
+	
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner phone*/
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Banner Background and Text Colors */
+
+#banner {
+   /* background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background: url("../images/banner-images/cruz.png") no-repeat center top;*/
+    /* background: url("../images/banner-images/banner_md.jpg"); */
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-color: #E8E8E8;
+}
+
+
+
+#banner_ariadne_ferreira {
+	background: url("../images/banner-images/ariadne_topo_s.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_leonardo_cezimbra {
+	background: url("../images/banner-images/leonardo_topo_s.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_americo_nunes {
+	background: url("../images/banner-images/americo_topo_s.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_rafaela_queiroz {
+	background: url("../images/banner-images/rafuska_topo_s.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_beatriz_pacheco {
+	background: url("../images/banner-images/beatriz_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_marcio_ricardo {
+	background: url("../images/banner-images/marcio_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_aparecida_lemos {
+	background: url("../images/banner-images/cida_topo_s.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_geovanni_henrique_jeandro_borba {
+	background: url("../images/banner-images/geovanni_topo_s.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_jacqueline_cortes {
+	background: url("../images/banner-images/jacque_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_lucas_martins {
+	background: url("../images/banner-images/lucas_topo_s.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_rafael_sanches_lopes {
+	background: url("../images/banner-images/bolacha_topo.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+}
+
+#banner_wladimir_reis {
+	background: url("../images/banner-images/wladimir_topo_s.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner_wanessa_campos {
+	background: url("../images/banner-images/vanessa_topo_s.jpg") no-repeat center top;
+	background-size: contain;
+    background-repeat:   no-repeat;
+    background-position: right;
+	background-color: #E8E8E8;
+}
+
+#banner-1 {
+    background: url("../images/banner-images/banner-image-2.jpg") no-repeat center top;
+    background-size:cover;
 }
 }
 
