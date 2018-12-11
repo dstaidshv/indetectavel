@@ -24,6 +24,7 @@
 - 6.5 Clients conceitos
 - 6.6 Pricing Table
 7. Footer
+8. Internet Explorer styles
 
 
 /*------------------------------------------------------------------------------------------*/
@@ -990,15 +991,6 @@ blockquote {
     display: block;
 }
 
-q::before {
-    font-family: Bungee, sans-serif, Arial, Helvetica;
-    display: block;
-    content: "“";
-    color: rgb(6, 136, 222);
-    font-size: 4em;
-    margin-left: auto;
-    margin-right: auto;
-}
 /*
 .testimonial.classic footer:before {
     display: block;
@@ -2877,3 +2869,11 @@ color: blue;
   margin-left:10px;
  boder-radius: 2px;
 }*/
+
+
+    /*-----------------Internet Explorere IE styles -----------------*/
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    // IE10+ CSS here
+	
+}

@@ -43,10 +43,12 @@ q:before {
 	display: block;
     content: "“" ;
     color: #0688de;
-    font-size: 1em;
+    font-size: 4em;
 	margin-left: auto;
     margin-right: auto;
+	margin-top: 10px;
 }
+
 q:after {
     content: no-close-quote;
 }
@@ -62,4 +64,20 @@ footer{
     background: #ffffff;
     padding: 20px;
     border-radius: 10px;
+}
+
+
+    /*-----------------Internet Explorere IE styles -----------------*/
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    // IE10+ CSS here	
+q:before {
+	font-family: 'Bungee', sans-serif, Arial, Helvetica;
+	display: block;
+    content: "“" ;
+    color: #0688de;
+    font-size: 1em;
+	margin-left: auto;
+    margin-right: auto;
+}	
 }
