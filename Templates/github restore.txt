@@ -1,1 +1,1 @@
-cd /var/www/html&&rm -r indetectavel_backup&&mv indetectavel indetectavel_backup/&&wget https://github.com/dstaidshv/indetectavel/archive/master.zip&& unzip master.zip&&mv indetectavel-master indetectavel
+cd /var/www/html&&rm master.zip&&rm -r indetectavel_backup&&mv indetectavel indetectavel_backup/&&wget https://github.com/dstaidshv/indetectavel/archive/master.zip&& unzip master.zip&&mv indetectavel-master indetectavel
