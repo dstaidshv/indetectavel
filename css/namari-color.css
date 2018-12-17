@@ -104,6 +104,7 @@ div#st-1 {
     width:30px;
     height:5px;
     margin-top:30px;
+
 }
 
 .text-center .section-heading h2:after {
@@ -194,6 +195,7 @@ body {
     font-size: 34px;
     font-weight:700;
     color:#111;
+	text-align: center;
 }
 
 .section-subtitle {

@@ -34,8 +34,13 @@
 }
 */
 p.quote {
-    font-style: italic;
+	font-family: 'Bungee', sans-serif, Arial, Helvetica;
     color: #0688de;
+    color: #0688de;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-transform: uppercase;
 }
 
 q:before {
