@@ -316,6 +316,9 @@ section {
   /*  padding-right: 9%;
 	width: 350px;
 	height: 40px; */
+    float: right;
+    padding-top: 20px;
+    padding-right: 5px;
 }
 
 #header {
