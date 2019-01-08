@@ -350,16 +350,16 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 
 #landing-footer, #landing-footer p, #landing-footer a {
-    font-family: 'Bungee', sans-serif, Arial, Helvetica;
-    font-size:12px;
+    font-family: Helvetica;
+    font-size:14px;
     font-weight:normal;
     color:#999;
-	text-align: center;
+	/*text-align: center;
 	margin: 0;
     position: absolute;
     right: 50%;
     left: 50%;
-	width: 500px;
+	width: 500px; */
 }
 
 /* Footer Icon Color */
