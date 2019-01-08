@@ -42,6 +42,24 @@
    <meta charset="UTF-8">
       <!--Favicon-->
       <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+      <!-- Main CSS Files -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Namari Color CSS -->
+      <link rel="stylesheet" href="css/namari-color.css">
+      <!--Icon Fonts - Font Awesome Icons-->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!-- Animate CSS-->
+      <link href="css/animate.css" rel="stylesheet" type="text/css">
+      <!--featherlight css -->
+      <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/css" rel="stylesheet" />
+      <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />      <!-- quote CSS-->
+      <!-- quote CSS-->
+      <link rel="stylesheet" href="css/quote.css">
+      <!-- Resource style -->
+      <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>-->
+      <link href="https://fonts.googleapis.com/css?family=Bungee:400,300,600,700,800" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Kalam:400,300,600,700,800" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Caveat:400,700" rel="stylesheet" type="text/css">
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76617441-7"></script>
       <script>
@@ -55,9 +73,119 @@
       <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5be09428b789db0011cddc78&product=inline-share-buttons"></script>
    </head>
    <body>
-	                        <!--Social Icons in Header-->
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9DTKDV" height=
+         "0" width="0" class="c1"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      <!-- Preloader -->
+      <div id="preloader">
+         <div id="status" class="la-ball-triangle-path"></div>
+      </div>
+      <!--End of Preloader-->
+      <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+         <div class="top-border wow fadeInDown animated c2"></div>
+         <div class="right-border wow fadeInRight animated c3"></div>
+         <div class="bottom-border wow fadeInUp animated c4"></div>
+         <div class="left-border wow fadeInLeft animated c5"></div>
+      </div>
+      <div id="wrapper">
+         <header id="banner_ariadne_ferreira" class="scrollto clearfix" data-enllax-ratio=".5">
+            <div id="header" class="nav-collapse">
+               <div class="row clearfix">
+                  <div class="col-1">
+                     <!--Logo-->
+                     <div id="logo">
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <a id="navigation-logo" href="index.html"><img src="images/logo.png"  alt="logo"/></a>
+                        <!--End of Navigation Logo-->
+                     </div>
+                     <!--End of Logo-->
+                     <!--Social Icons in Header-->
                      <div class="sharethis-inline-share-buttons"></div>
-   <img src="images/campanha_fb/facebook_indetectavel_ariadne.jpg" width="1200" height="1200" alt=""/>
-   
+                     <!--End of Social Icons in Header-->
+                     <!--Main Navigation-->
+                     <!--End of Main Navigation-->
+                     <!--close window-->
+                     <div class="fecha_janela"><a href="http://www.aids.gov.br/indetectavel/">Voltar</a></div>
+                  </div>
+               </div>
+            </div>
+            <!--End of Header-->
+            <!--Banner Content-->
+
+            <!--End of Row-->
+         </header>
+         <!--Main Content Area-->
+         <main id="content">
+            <!--Personagens-->
+            <aside id="personagens" class="scrollto text-center" data-enllax-ratio=".2">
+               <div class="row clearfix">
+                  <!--Personagens-->
+                  <div class="clearfix">     
+                        </div>
+                        <!--End Content Left Side-->
+                        <!--Content of the Right Side-->
+                 <div class="col-1 text-left">
+							<div class="section-heading">
+                        <h2 class="section-title"><br>Ariadne Ribeiro</h2>
+                     </div>
+                           <p><img src="images/campanha_fb/facebook_indetectavel_ariadne.jpg" width="1200" height="1200" alt=""/></p>
+					 
+                                           </div>
+                        <!--End Content Right Side-->
+                     </div>
+                  </div>
+                  <!--End of Content Section-->
+               </div>
+               <!--End of Row-->
+               <!--End of Personagens-->
+         
+               <!--Footer-->
+            </aside>
+         </main>
+         <footer id="landing-footer" class="clearfix">
+            <p id="copyright" class="col-1">créditos aqui<br> <a href="http://www.aids.gov.br" target="_blank">Departamento de Vigilância, Prevenção e Controle das IST, do HIV/Aids e das Hepatites Virais</a>
+            </p>
+         </footer>
+         <!--End of Footer-->
+      </div>
+      <!-- Include JavaScript resources -->
+      <script src="js/jquery.1.8.3.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/featherlight.min.js"></script>
+      <script src="js/featherlight.gallery.min.js"></script>
+      <script src="js/jquery.scrollUp.min.js"></script>
+      <script src="js/jquery.easing.min.js"></script>
+      <script src="js/jquery.stickyNavbar.min.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/images-loaded.min.js"></script>
+      <script src="js/lightbox.min.js"></script>
+      <script src="js/site.js"></script>
+      <script>
+         $(document).ready(function(){
+         	$('.gallery').featherlightGallery({
+         		gallery: {
+         			fadeIn: 300,
+         			fadeOut: 300
+         		},
+         		openSpeed:    300,
+         		closeSpeed:   300
+         	});
+         	$('.gallery2').featherlightGallery({
+         		gallery: {
+         			next: 'next »',
+         			previous: '« previous'
+         		},
+         		variant: 'featherlight-gallery2'
+         	});
+         });
+      </script>
+      <script>
+         function close_window() {
+          {
+           close();
+         }
+         }
+      </script>
    </body>
 </html>
