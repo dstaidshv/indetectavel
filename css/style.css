@@ -2884,6 +2884,14 @@ div#st-1 {
     width: 125px;
 }
 
+i.fa.fa-arrow-circle-down {
+    margin-left: 50%;
+    margin-right: 50%;
+    top: -65px;
+    position: relative;
+    left: -34px;
+}
+
     /*-----------------Internet Explorere IE styles -----------------*/
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
