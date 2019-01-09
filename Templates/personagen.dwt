@@ -22,8 +22,8 @@
       <meta itemprop="name" content="Estou indetectável">
       <meta itemprop="description" content="Indetectável Should be greater than 80 and smaller than 160 character">
       <meta itemprop="image" content="http://www.aids.gov.br/indetectavel/images/logo_share2.png">
-      <!-- Facebook Meta Tags -->
-      <meta property="og:type" content="website" />
+      <!-- Facebook Meta Tags -->   <meta property="fb:app_id" content="379597155948561" />
+   <meta property="og:type" content="website" />
       <meta property="og:title" content="Estou indetectável" />
       <meta property="og:url" content="http://www.aids.gov.br/indetectavel/" />
       <meta property="og:image" content="http://www.aids.gov.br/indetectavel/images/logo_share2.png" />
