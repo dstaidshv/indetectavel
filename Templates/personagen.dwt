@@ -29,8 +29,7 @@
       <meta property="og:image" content="http://www.aids.gov.br/indetectavel/images/logo_share2.png" />
       <meta property="og:description" content="descrição aqui" />
       <meta property="og:site_name" content="Indetectável" />
-      <!-- Twitter Meta Tags -->
-      <meta name="twitter:card" content="summary" />
+      <!-- Twitter Meta Tags -->      <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:title" content="Indetectável título aqui" />
       <meta name="twitter:description" content="Your 200-character description here" />
       <meta name="twitter:url" content="http://www.aids.gov.br/indetectavel" />
