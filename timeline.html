@@ -1,105 +1,657 @@
 <!doctype html>
 <html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!--<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>-->
-	<link href='https://fonts.googleapis.com/css?family=Bungee:400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="timeline/css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="timeline/css/style.css"> <!-- Resource style -->
-	<link rel="stylesheet" href="timeline/css/demo.css"> <!-- Demo style -->
-  	
-	<title>Responsive Vertical Timeline</title>
-</head>
-<body>
-<!--	<header>
-
-		<h1>Responsive Vertical Timeline</h1>
-	</header>-->
-
-	<section class="cd-timeline js-cd-timeline">
-		<div class="cd-timeline__container">
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-					<img src="timeline/img/cd-icon-picture.svg" alt="Picture">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Titulo da seção 1</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-					<a href="#0" class="cd-timeline__read-more">Ler mais</a>
-					<span class="cd-timeline__date">Jan 14</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-					<img src="timeline/img/cd-icon-movie.svg" alt="Movie">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Titulo da seção 2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-					<a href="#0" class="cd-timeline__read-more">Ler mais</a>
-					<span class="cd-timeline__date">Jan 18</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-					<img src="timeline/img/cd-icon-picture.svg" alt="Picture">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Titulo da seção 3</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-					<a href="#0" class="cd-timeline__read-more">Ler mais</a>
-					<span class="cd-timeline__date">Jan 24</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-					<img src="timeline/img/cd-icon-location.svg" alt="Location">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Titulo da seção 4</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-					<a href="#0" class="cd-timeline__read-more">Ler mais</a>
-					<span class="cd-timeline__date">Feb 14</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-					<img src="timeline/img/cd-icon-location.svg" alt="Location">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Titulo da seção 5</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-					<a href="#0" class="cd-timeline__read-more">Ler mais</a>
-					<span class="cd-timeline__date">Feb 18</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-					<img src="timeline/img/cd-icon-movie.svg" alt="Movie">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Final Section</h2>
-					<p>This is the content of the last section</p>
-					<span class="cd-timeline__date">Feb 26</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-		</div>
-	</section> <!-- cd-timeline -->
-	
-<script src="timeline/js/main.js"></script> <!-- Resource JavaScript -->
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>-->
+      <link href='https://fonts.googleapis.com/css?family=Bungee:400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="timeline/css/reset.css">
+      <!-- CSS reset -->
+      <link rel="stylesheet" href="timeline/css/style.css">
+      <!-- Resource style -->
+      <link rel="stylesheet" href="timeline/css/demo.css">
+      <!-- Demo style -->
+      <title>Principais acontecimentos na história do tratamento do HIV/aids</title>
+   </head>
+   <body>
+      <!--	<header>
+         <h1>Responsive Vertical Timeline</h1>
+         </header>-->
+      <section class="cd-timeline js-cd-timeline">
+         <div class="cd-timeline__container">
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                  <img src="timeline/img/cd-icon-picture.svg" alt="Picture">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2018</h2>
+                  <p>Implementação da oferta da Profilaxia Pré-Exposição (PrEP) no Sistema Único de Saúde (SUS).</p>
+                  <!--<a href="#0" class="cd-timeline__read-more">Ler mais</a>-->
+                  <!--<span class="cd-timeline__date">Jan 14</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2018</h2>
+                  <p>É ampliada a oferta do antirretroviral (ARV) dolutegravir para pessoas que vivem com HIV (PVHIV) em terapia antirretroviral (TARV) de 1ª linha.</p>
+                  <a href="#0" class="cd-timeline__read-more">Ler mais</a>
+                  <!--<span class="cd-timeline__date">Jan 18</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                  <img src="timeline/img/cd-icon-picture.svg" alt="Picture">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2018</h2>
+                  <p><strong>Indetectável</strong> – O Departamento de IST, HIV/Aids e Hepatites Virais lança estratégia sobre a importância do tratamento para que as pessoas vivendo com HIV tenham o vírus indetectável.</p>
+                  <a href="#0" class="cd-timeline__read-more">Ler mais</a>
+                  <!--<span class="cd-timeline__date">Jan 24</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+                  <img src="timeline/img/cd-icon-location.svg" alt="Location">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2017</h2>
+                  <p>O Ministério da Saúde define novos critérios para substituição de esquemas de TARV pelo dolutegravir e ampliação da oferta para alcançar 300 mil pacientes até 2018</p>
+                  <a href="http://www.aids.gov.br/pt-br/noticias/conheca-os-novos-criterios-para-substituicao-de-esquemas-de-tarv-para-o-uso-do-dolutegravir" class="cd-timeline__read-more" target="_blank">Ler mais</a>
+                  <!--<span class="cd-timeline__date">Feb 14</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+                  <img src="timeline/img/cd-icon-location.svg" alt="Location">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2017</h2>
+                  <p>Incorporação da PrEP ao Sistema Único de Saúde (SUS) para reduzir o risco da infecção pelo HIV antes da exposição ao vírus</p>
+                  <a href="http://portalms.saude.gov.br/noticias/agencia-saude/28555-ministerio-da-saude-publica-protocolo-para-utilizacao-da-prep" class="cd-timeline__read-more" target="_blank">Ler mais</a>
+                  <!--<span class="cd-timeline__date">Feb 18</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2016</h2>
+                  <p>Divulgado o estudo PARTNER, apresentando evidências seguras de que uma pessoa que vive com o HIV (PVHIV) e que se mantém indetectável não transmite o vírus para suas parcerias sexuais.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                 <h2>2014</h2>
+                 <p>Implementação do tratamento universal para as pessoas vivendo com HIV (PVHIV). Antes, o tratamento era somente iniciado quando o paciente apresentava queda na imunidade.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+              </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                 <h2>2013</h2>
+                 <p>Anunciado o "3 em 1", unindo as drogas lamivudina, tenofovir e efavirenz em um único comprimido.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+              </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                 <h2>2013</h2>
+                 <p>Adoção da política de tratamento como prevenção do HIV no país.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+              </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2012</h2>
+                  <p>Ampliação do uso precoce de antirretrovirais para pessoas com CD4 igual ou inferior a 350 células/mm³.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2012</h2>
+                  <p>O Ministério da Saúde inclui a possibilidade de antecipação do início do tratamento entre parceiros sexuais fixos sorodiferentes.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2011</h2>
+                  <p>Anunciada a produção nacional de dois novos medicamentos para a aids – atazanavir e o raltegravir – por meio de Parcerias Público-Privadas e da versão genérica do tenofovir, indicado para aids e hepatites virais.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2011</h2>
+                  <p>É introduzida no SUS a PEP sexual – Profilaxia Pós-Exposição ao vírus HIV – em caso de relações sexuais desprotegidas.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2007</h2>
+                  <p>O Brasil decreta o licenciamento compulsório do efavirenz. </p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2007</h2>
+                  <p>É assinado acordo para reduzir preço do antirretroviral lopinavir/ritonavir. </p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2007</h2>
+                  <p>Em um ano, a Unitaid reduz preços de medicamentos antirretrovirais em até 50%.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2006</h2>
+                  <p>O Dia Mundial de Luta contra a Aids teve sua campanha protagonizada, pela primeira vez, por pessoas vivendo com aids <a href="https://www.youtube.com/watch?v=lCBSDgNptjU" target="_blank">“A vida é mais forte que a aids”</a></p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2006</h2>
+                  <p>Acordo reduz em 50% o preço do antirretroviral tenofovir, representando uma economia imediata de US$ 31,4 milhões por ano.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2005</h2>
+                  <p>Aprovado pela Comissão de Constituição e Justiça o projeto de lei que autoriza o governo a suspender as patentes de oito medicamentos usados no tratamento da aids, o que torna possível produzir genéricos no país.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2003</h2>
+                  <p>O Programa Nacional de DST e Aids recebe US$ 1 milhão da Fundação Bill & Melinda Gates como reconhecimento às ações de prevenção e assistência no país. Os recursos foram doados para ONGs que trabalham com portadores de HIV/aids. </p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2003</h2>
+                  <p>A política brasileira de aids é considerada por diversas agências de cooperação internacional como referência mundial.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2001</h2>
+                  <p>O Brasil ameaça quebrar patentes e consegue negociar com a indústria farmacêutica internacional a redução no preço dos medicamentos para aids.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2001</h2>
+                  <p>Implantação da Rede Nacional de Laboratórios para Genotipagem.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>2000</h2>
+                  <p>A partir de acordo promovido pelas Nações Unidas, cinco grandes companhias farmacêuticas concordam em diminuir o preço dos remédios usados no tratamento da aids para os países em desenvolvimento.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1999</h2>
+                  <p>A mortalidade dos pacientes de aids cai 50% e a qualidade de vida das pessoas vivendo com HIV melhora significativamente. </p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1999</h2>
+                  <p>Estudos indicam que, quando o tratamento é abandonado, a infecção se torna outra vez detectável.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1998</h2>
+                  <p>Lei define como obrigatória a cobertura de despesas hospitalares com aids pelos seguros-saúde privados (mas não assegura tratamento antirretroviral).</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1996</h2>
+                  <p>O Programa Nacional de DST e Aids lança o primeiro consenso em terapia antirretroviral (regulamentação da prescrição de medicações para combater o HIV).</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1996</h2>
+                  <p>O direito ao recebimento de medicação gratuita para tratamento da aids é fixado por lei.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1996</h2>
+                  <p>Disponibilização do AZT venoso na rede pública.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1995</h2>
+                  <p>Estudos revelam que a combinação de drogas reduz a progressão da infecção, mas o custo do tratamento é de US$ 10 mil a US$ 15 mil por ano.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1995</h2>
+                  <p>É aprovada nos EUA uma nova classe de fármacos contra o HIV, os inibidores de protease, que dificultam a multiplicação do HIV no organismo.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1994</h2>
+                  <p>Estudos mostram que o uso do AZT ajuda a prevenir a transmissão do HIV de mãe para filho durante a gravidez e o parto.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1993</h2>
+                  <p>Início da notificação da aids no Sistema Nacional de Notificação de Doenças (Sinan).</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1993</h2>
+                  <p>O Brasil passa a produzir o AZT.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1992</h2>
+                  <p>Inclusão, no código internacional de doenças, da infecção pelo HIV.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1992</h2>
+                  <p>Ministério da Saúde inclui os procedimentos para o tratamento da aids na tabela do SUS.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1991</h2>
+                  <p>O laço vermelho é lançado como um símbolo internacional de conscientização sobre a aids.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1991</h2>
+                  <p>Início da distribuição do AZT no sistema público de saúde.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1988</h2>
+                  <p>Portaria assinada pelo ministro da Saúde, Leonardo Santos Simão, adota o 1º de dezembro como o Dia Mundial de Luta contra a Aids.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1988</h2>
+                  <p>Criação do Sistema Único de Saúde.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1987</h2>
+                  <p>Início da utilização do AZT, medicamento para pacientes com câncer – o primeiro fármaco a reduzir a multiplicação do HIV.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1987</h2>
+                  <p>A Assembleia Mundial de Saúde, com o apoio da Organização das Nações Unidas (ONU), decide transformar o dia 1º de dezembro em Dia Mundial de Luta contra a Aids, para reforçar a solidariedade, a tolerância, a compaixão e a compreensão em relação às pessoas infectadas pelo HIV. A escolha dessa data seguiu critérios próprios das Nações Unidas.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1986</h2>
+                  <p>É instituído o Programa Nacional de DST e Aids no Ministério da Saúde.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1985</h2>
+                  <p>Criação de um mecanismo federal de controle da aids, o "Programa de Controle da Síndrome de Imunodeficiência Adquirida, SIDA ou AIDS", sob a coordenação da Divisão Nacional de Dermatologia Sanitária. </p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1985</h2>
+                  <p>O primeiro teste anti-HIV é disponibilizado para diagnóstico.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1983</h2>
+                  <p>A equipe de Luc Montagnier, do Instituto Pasteur, na França, isola e caracteriza o HIV, vírus causador da aids.</p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div class="cd-timeline__block js-cd-block">
+               <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <img src="timeline/img/cd-icon-movie.svg" alt="Movie">
+               </div>
+               <!-- cd-timeline__img -->
+               <div class="cd-timeline__content js-cd-content">
+                  <h2>1982</h2>
+                  <p>Primeiro caso diagnosticado no Brasil, em São Paulo – embora o primeiro caso de aids no Brasil tenha ocorrido em 1980, em um paciente do sexo masculino, também em São Paulo. O caso foi resgatado mais tarde em revisões nos prontuários. </p>
+                  <!--<span class="cd-timeline__date">Feb 26</span>-->
+               </div>
+               <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+			
+         </div>
+      </section>
+      <!-- cd-timeline -->
+      <script src="timeline/js/main.js"></script> <!-- Resource JavaScript -->
+   </body>
 </html>
