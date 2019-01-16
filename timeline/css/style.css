@@ -169,6 +169,11 @@ header h1 {
   background: #f0ca45;
 }
 
+.2018 {
+  background: #75ce66;
+}
+
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline__img {
     width: 60px;
